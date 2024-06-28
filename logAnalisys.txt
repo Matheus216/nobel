@@ -1,0 +1,16 @@
+- LOGIN 
+Login: tech_jwrenn, Basicas: 1, Telefonia: 1, Marcador: 0, Grabacion: 1, Email: 0
+
+- How many licences are being used
+TOTALES == Basicas: 1, Telefonia: 1, Marcador: 0, Grabacion: 1, Email: 0
+
+- LOGOUT
+ServiceRequest started http://localhost:8091/ [http://localhost:8091//v1/ActivitiesStore/AgentDisconnectedFromService timeout=20000]
+
+- DISPOSITION OF TRANSACTION, OR WHERE THE IDFINAL WAS SET TO
+
+[REQ] OnFinalizarTransaccion(idTransaccion=100000016, idFinal=9, bReplan=NO, sProximoContacto=(empty), lIntervalo=60, lCuota=0)
+FinalizarTransaccion(idTransaccion=100000016, idFinal=9, Replan=NO, ProximoContacto=(empty), lIntervalo=60, lCuota=0, idLocalizador=-1, bForceReQueueDocument=0)
+TRANSACCION: CerrarTransaccion(idTrans=100000016, idFinal=9, bReplan=0, sTProxCont=, lIntervalo=60, idLocalizador=-1)
+TRANSACCION: CerrarTransaccion devuelve lRetCode=1
+Transacci�n 100000014 finalizada (idFinal=9, Replan=NO, ProxCont=(empty), lIntervalo=60, lCuota=0)
